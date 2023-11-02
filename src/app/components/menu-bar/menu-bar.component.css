@@ -1,0 +1,79 @@
+.menu-bar__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+}
+
+.menu-bar__container > .logo {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-bar__container > .logo > .title-logo > .title-logo-content {
+    text-align: center;
+    color: #23232e;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.menu-bar__container > .logo > a {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar__container > .logo > a > img {
+    width: 40px;
+}
+
+.menu-bar__container > .group {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar__container > .group > ul {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-bar__container > .group > ul > li {
+    list-style: none;
+}
+
+.menu-bar__container > .group > ul > li > a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    color: #23232e;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.menu-bar__container > .group > ul > li > a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #23232e;
+    transform: scaleX(0);
+    transition: transform 0.4s ease-in-out;
+    transform-origin: right;
+}
+
+.menu-bar__container > .group > ul > li > a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}

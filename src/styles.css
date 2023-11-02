@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* largura da barra de rolagem */
+}
+
+ /* Estilizando o "thumb" (a alça da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+    background-color: #160d58; /* cor do "thumb" */
+    border-radius: 5px;
+}
+
+/* Estilizando a "track" (a área ao redor da alça da barra de rolagem) */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* cor da "track" */
+}
