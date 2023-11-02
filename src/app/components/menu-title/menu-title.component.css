@@ -1,0 +1,57 @@
+.text-header {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-header > h1 {
+    font-size: 60px;
+    color:#fff;
+}
+
+.text-header > h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color:#fff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-header > .search {
+    position: absolute;
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-header > .search > input {
+    color: black;
+    height: 40px;
+    width: 400px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+}
+
+.text-header > .search > button {
+    background-color: #66489285;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
