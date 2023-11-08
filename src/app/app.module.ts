@@ -7,6 +7,11 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { ClimateCardComponent } from './components/climate-card/climate-card.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
+import { CityComponent } from './components/climate-card/city/city.component';
+import { TemperatureComponent } from './components/climate-card/temperature/temperature.component';
+import { DetailsComponent } from './components/climate-card/details/details.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { ClimateCardComponent } from './components/climate-card/climate-card.com
     MenuBarComponent,
     HomeComponent,
     MenuTitleComponent,
-    ClimateCardComponent
+    ClimateCardComponent,
+    RodapeComponent,
+    CityComponent,
+    TemperatureComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

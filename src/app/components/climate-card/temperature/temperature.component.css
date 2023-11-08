@@ -1,0 +1,4 @@
+.temperature__container > p,
+.temperature__container > p > span {
+    font-size: 4rem;
+}

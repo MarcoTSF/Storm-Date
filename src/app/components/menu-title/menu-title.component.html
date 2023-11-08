@@ -1,10 +1,10 @@
 <div class="text-header">
-    <h1>Checking the Weather Forecast</h1>
+    <h1>Checking the Weather</h1>
     <h2>Storm Date</h2>
 
     <div class="search">
-        <input type="text" id="search-input" placeholder="Search City"/>
-        <button id="search-button"><i class="fa fa-search"></i></button>
+        <input [(ngModel)]="inputValue" placeholder="Search City">
+        <button id="search" (click)="handleClick()"><i class="fa fa-search"></i></button>
     </div>
 </div>
 

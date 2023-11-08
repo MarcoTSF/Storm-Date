@@ -1,0 +1,33 @@
+.description__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.description__container > .description {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.details__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details__container > .umidity {
+    border-right: 1px solid #fff;
+    margin-right: 7px;
+    padding-right: 7px;
+}
+
+.details__container > .umidity,
+.details__container > .wind {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

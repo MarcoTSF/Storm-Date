@@ -1,0 +1,14 @@
+.city__container > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.city__container > h2 > i {
+    font-size: 1rem;
+}
+
+.city__container > h2 > span {
+    margin: 0 10px;
+}

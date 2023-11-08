@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-title.component.css']
 })
 export class MenuTitleComponent {
+  inputValue: string = '';
 
+  handleClick(): void {
+    if (this.inputValue) {
+      console.log(this.inputValue);
+    } else {
+      console.log("O campo de entrada está vazio.");
+    }
+  }
 }

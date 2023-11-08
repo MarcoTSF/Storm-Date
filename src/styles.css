@@ -22,7 +22,7 @@
 
  /* Estilizando o "thumb" (a alça da barra de rolagem) */
 ::-webkit-scrollbar-thumb {
-    background-color: #030304; /* cor do "thumb" */
+    background-color: #111165; /* cor do "thumb" */
     border-radius: 5px;
 }
 
